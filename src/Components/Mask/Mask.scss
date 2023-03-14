@@ -1,0 +1,247 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.mask {
+	background-image: url('../../Mask17.png');
+	height: 60vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 48px;
+}
+
+.find_places {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.find_places .content {
+	display: inline-block;
+	position: relative;
+	top: 55%;
+	left: 0;
+	background: #33282d;
+	opacity: 0.81;
+	text-align: left;
+	padding: 15px 5% 15px 25%;
+	border-radius: 0px 0px 20px 0px;
+}
+
+.find_places .content p {
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.find_places .arrow {
+	width: 25em;
+	position: absolute;
+	top: 11em;
+	right: 20em;
+}
+
+.find_places .girl {
+	width: auto;
+	position: absolute;
+	right: 0;
+	top: -70px;
+	height: 520px;
+}
+
+//MEDIA
+
+
+// @media screen and (max-width: 376px) {
+// 	.container {
+// 		display: flex;
+// 		flex-direction: row;
+// 		align-items: center;
+// 		justify-content: center;
+// 	}
+// 	.find_places .content {
+// 		width: 70%;
+// 		height: 35%;
+// 		top: 4em;
+// 		position: relative;
+// 		border-radius: 0px 0px 20px 0px;
+// 	}
+// 	.find_places .content p {
+// 		font-size: 15px;
+// 		color: #fff;
+// 		text-transform: uppercase;
+// 		font-weight: bold;
+// 	}
+// 	.find_places .girl {
+// 		width: 250px;
+// 		height: 250px;
+// 		top: 7em;
+// 		left: 4em;
+// 	}
+// 	.find_places .arrow {
+// 		width: auto;
+// 		height: 40px;
+// 		transform: scaleX(-1) rotate(150deg);
+// 		right: 5em;
+// 	}
+// }
+
+// @media screen and (max-width: 426px) {
+// 	.container {
+// 		display: flex;
+// 		flex-direction: row;
+// 		align-items: center;
+// 		justify-content: center;
+// 	}
+// 	.find_places .content {
+// 		width: 70%;
+// 		height: 35%;
+// 		top: 4em;
+// 		position: relative;
+// 		border-radius: 0px 0px 20px 0px;
+// 	}
+// 	.find_places .content p {
+// 		font-size: 15px;
+// 		color: #fff;
+// 		text-transform: uppercase;
+// 		font-weight: bold;
+// 	}
+// 	.find_places .girl {
+// 		width: 250px;
+// 		height: 250px;
+// 		top: 7em;
+// 		// left: 5em;
+// 	}
+// 	.find_places .arrow {
+// 		width: auto;
+// 		height: 40px;
+// 		transform: scaleX(-1) rotate(150deg);
+// 		right: 5em;
+// 	}
+// }
+
+// //MEDIA
+
+// @media screen and (min-width: 320px) {
+// 	.find_places {
+// 		width: 100%;
+// 		height: 100%;
+// 		position: relative;
+// 	}
+// }
+
+
+@media screen and (max-width: 320px) {
+
+	.content {
+		width: 150px;
+		height: 100px;
+		top: 2em;
+		padding: 0;
+	}
+	.content p {
+		font-size: 17px;
+		display: flex;
+		justify-content: center;
+	}
+	.find_places .girl {
+		width: 320px !important;
+		height: 300px !important;
+		left: 2em;
+		top: 3em;
+	}
+	.arrow{
+		width: 250px !important;
+		left: 2em;
+		position: absolute;
+		// transform: rotate(45deg) !important;
+	}
+
+}
+
+@media screen and (max-width: 375) {
+	.find_places .girl{
+		top: 3em !important;
+		width: 300px !important;
+		height: 300px !important;
+	}
+	p{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	// .container {
+	// 	display: flex;
+	// 	flex-direction: row;
+	// 	align-items: center;
+	// 	justify-content: center;
+	// }
+
+	.find_places .content {
+		width: 49%;
+		height: 45%;
+		top: 4em;
+		position: relative;
+		border-radius: 0px 0px 20px 0px;
+	
+	}
+	.find_places .content p {
+		font-size: 20px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.find_places .girl {
+		width: auto;
+		height: 420px;
+	}
+	.find_places .arrow {
+		width: auto;
+		height: 60px;
+		transform: scaleX(-1) rotate(150deg);
+		right: 7em;
+		margin-right: 4em;
+		margin-top: 2em;
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+	.container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.find_places .content {
+		width: 60%;
+		height: 35%;
+		top: 6em;
+		position: relative;
+		border-radius: 0px 0px 20px 0px;
+	}
+	.find_places .content p {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.find_places .girl {
+		height: 400px;
+		right: 2em;
+		top: 0px;
+	}
+	.find_places .arrow{
+		width: auto;
+		height: 80px;
+		transform: scaleX(-1) rotate(160deg);
+		right: 3em;
+	}
+}
